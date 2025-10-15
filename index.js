@@ -251,7 +251,7 @@ async function fetchWeatherAll(lat, lon){
 
 async function fetchWeathergas(lat, lon){
   try {
-    const url = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=${api_key}`;
+    const url = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=${api_key}`;
     const res = await axios.get(url);
     const list = res.data.list;
 
