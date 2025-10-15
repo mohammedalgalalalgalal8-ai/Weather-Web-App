@@ -28,6 +28,11 @@ body {
 
 .navbar-custom {
   background: linear-gradient(90deg, #34495e, #2c3e50);
+ top:0;
+ left:0;
+ position:fixed;
+ width:100%;
+ z-index:1000;
   color: #fff;
   padding: 0.7rem 1rem;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
