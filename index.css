@@ -16,7 +16,7 @@
 
 body {
   margin: 0;
- padding-top:10px;
+ padding-top:25px;
   background-color: var(--bg-night);
   color: var(--text-night);
   transition: background 0.4s, color 0.4s;
